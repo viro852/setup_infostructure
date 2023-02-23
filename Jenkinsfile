@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/viro852/setup_infostructure_project.git'
+                git 'https://github.com/viro852/setup_infostructure.git'
 
 
                 // To run Maven on a Windows agent, use
